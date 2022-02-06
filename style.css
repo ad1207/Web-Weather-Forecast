@@ -1,0 +1,54 @@
+body{
+    background-image: url("background.jpg");
+    color:black;
+    font-family: "Poppins", sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#display{
+    margin-top: 100px;
+    align-items: center;
+}
+#information{
+    display: inline-block;
+    align-items: center;
+}
+#searchBox{
+    border-radius: 20px;
+    width: 30%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    min-width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-color: transparent;
+}
+#form{
+    align-items: center;
+}
+::placeholder{
+    font-size: larger;
+    padding-left: 5px;
+    align-self: center;
+}
+input[type=text]{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 5px;
+    text-align: center;
+}
+#heading{
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#blur{
+    color: rgba(68, 68, 68, 0.6);;
+}
+input:focus{
+    outline: none;
+}
+h2{
+    margin-bottom: 0px;
+}
